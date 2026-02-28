@@ -43,11 +43,10 @@ def executar():
             except ValueError:
                 print("Erro: Por favor, insira apenas números válidos.")
         else:
-            print("Opção inválida! Tente novamente.")
+            print("Opção inválida. Tente novamente.")
 
         input("\nPressione Enter para continuar...")
-        # Limpa a tela (Windows: cls | Mac/Linux: clear)
-        os.system('cls' if os.name == 'nt' else 'clear')
+    
 
 if __name__ == "__main__":
     executar()
